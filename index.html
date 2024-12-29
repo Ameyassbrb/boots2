@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>online store</title>
+        <!-- css -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="output.css" />
+        <!-- fontawesome icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <!-- fontfamily -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Tailwind cdn -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+    </head>
+    <body>
+        <div class="main">
+            <header id="header">
+                <div class="logo">
+                    <img
+                        id="header-img"
+                        alt="store logo"
+                        src="https://www.caorda.com/wp-content/uploads/2023/05/Shopify_logo_2018.svg.png"
+                    />
+                </div>
+
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+             
+            <div class="w-full max-w-sm min-w-[200px] p-12">
+                <div class="relative">
+                  <input
+                    class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md pl-3 pr-28 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+                    placeholder="House,Sports,Games..." 
+                  />
+                  <button
+                    class="absolute top-1 right-1 flex items-center rounded bg-slate-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 mr-2">
+                      <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+                    </svg>
+               
+                    Search
+                  </button> 
+                </div>
+              </div>
+            <div class="form">
+                <h2>Your Home, Outdoor, and Business MegaStore</h2>
+                <form id="form" action="">
+                    <input
+                        type="email"
+                        placeholder="Enter your email address"
+                        name="email"
+                        id="email"
+                        required
+                    />
+                    <input id="submit" type="submit" value="Get Started" />
+                </form>
+            </div>
+
+            <div id="features">
+                <div class="card">
+                    <div class="icon"><i class="fa fa-3x fa-star"></i></div>
+                    <div class="content">
+                        <h2>Premium Materials</h2>
+                        <p>
+                            Our trombones use the shiniest brass which is sourced locally. This will
+                            increase the longevity of your purchase.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="content">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We make sure you recieve your trombone as soon as we have finished
+                            making it. We also provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon"><i class="fa fa-3x fa-check-circle"></i></div>
+                    <div class="content">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or
+                            faults and we will check and test the pitch of your instrument.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="how-it-works">
+                <iframe
+                    id="video"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/tqqg1Bv5Ikg"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+
+            <div id="pricing">
+                <div class="card">
+                    <h2>Fire Pits & Heating</h2>
+                    <img
+                        src="https://images.salsify.com/image/upload/s--XdZc0D3F--/uutjo4uyjesy1jjv66os"
+                        alt=""
+                        class="img-thumbnail"
+                    />
+                    <p>Price</p>
+                    <strong>$2000</strong>
+                    <p>
+                        Shop our selection of outdoor fire pits and heating for your backyard. We
+                        carry a wide variety of options like heaters, grates, fireplaces, and more
+                        to make your space comfortable. Learn more today!. High-Quality Fire Pits &
+                        Heating for Outdoor Use.
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+
+                <div class="card">
+                    <h2>Grilling</h2>
+                    <img
+                        src="https://images.salsify.com/image/upload/s--Pn95_7Sj--/txy42tjld6b61tkatr2a"
+                        alt=""
+                        class="img-thumbnail"
+                    />
+                    <p>Price</p>
+                    <strong>$900</strong>
+                    <p>
+                        If you enjoy the taste of outdoor cooking, discover everything you need to
+                        know about grills & accessories, charcoal & planks at onlinestores.com. Get
+                        a range of grills and accessories at the lowest prices.
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+
+                <div class="card">
+                    <h2>Patio Furniture</h2>
+                    <img
+                        src="https://images.salsify.com/image/upload/s--3zyIiyZ6--/snr7owawbfkktjpbl5ja"
+                        alt=""
+                        class="img-thumbnail"
+                    />
+                    <p>Price</p>
+                    <strong>$2000</strong>
+                    <p>
+                        Looking for garden furniture online? From patio sets and chairs to benches
+                        and lounges, we've got a wide range of outdoor furniture available!. Patio
+                        and Outdoor Furniture range at lowest prices.
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+                <div class="card">
+                    <h2>Fire Pit Accessories</h2>
+                    <img
+                        src="https://images.salsify.com/image/upload/s--zhONuivQ--/rnyytfsk9tq2dai14ohm"
+                        alt=""
+                        class="img-thumbnail"
+                    />
+                    <p>Price</p>
+                    <strong>$2000</strong>
+                    <p>
+                        No matter which type of outdoor enthusiast you are, we have the perfect
+                        accessories for your fire pit. From grill grates to decorative torches and
+                        everything in between, find what you're looking for at Online Stores. Best
+                        quality fire pit accessories to make your outdoor cooking fun.
+                    </p>
+                    <button>Shop Now</button>
+                </div>
+            </div>
+
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <p>&copy; 2024,Online Store</p>
+            </footer>
+        </div>
+    </body>
+</html>
